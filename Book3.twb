@@ -1,0 +1,2709 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0621.1547                               -->
+<workbook original-version='18.1' source-build='2019.2.1 (20192.19.0621.1547)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Soce5' inline='true' name='federated.17ms7nq0hwzif011gx5rp0ba6f0l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Soce5' name='textscan.1mlxoe210i8a0213kjh0l1p452a4'>
+            <connection class='textscan' directory='C:/Users/Satvik/Downloads' filename='Soce5.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1mlxoe210i8a0213kjh0l1p452a4' name='Soce5.csv' table='[Soce5#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='string' name='District' ordinal='2' />
+            <column datatype='real' name='SRB' ordinal='3' />
+            <column datatype='real' name='IMR' ordinal='4' />
+            <column datatype='integer' name='U5MR' ordinal='5' />
+            <column datatype='real' name='NNMR' ordinal='6' />
+            <column datatype='real' name='CFI' ordinal='7' />
+            <column datatype='real' name='SD' ordinal='8' />
+            <column datatype='real' name='TFR' ordinal='9' />
+            <column datatype='real' name='DR' ordinal='10' />
+            <column datatype='real' name='LR' ordinal='11' />
+            <column datatype='real' name='CSP' ordinal='12' />
+            <column datatype='real' name='CL' ordinal='13' />
+            <column datatype='integer' name='ClusterID' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SRB</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SRB]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>SRB</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IMR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IMR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>IMR</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>U5MR</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[U5MR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>U5MR</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NNMR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NNMR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>NNMR</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CFI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CFI]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>CFI</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SD</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SD]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>SD</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TFR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TFR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>TFR</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>DR</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LR</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LR]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>LR</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CSP</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CSP]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>CSP</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CL]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>CL</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClusterID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ClusterID]</local-name>
+            <parent-name>[Soce5.csv]</parent-name>
+            <remote-alias>ClusterID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[CFI]' role='measure' type='quantitative' />
+      <column datatype='real' name='[CL]' role='measure' type='quantitative' />
+      <column datatype='real' name='[CSP]' role='measure' type='quantitative' />
+      <column caption='Cluster ID' datatype='integer' name='[ClusterID]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[DR]' role='measure' type='quantitative' />
+      <column datatype='real' name='[IMR]' role='measure' type='quantitative' />
+      <column datatype='real' name='[LR]' role='measure' type='quantitative' />
+      <column caption='Nnmr' datatype='real' name='[NNMR]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='real' name='[TFR]' role='measure' type='quantitative' />
+      <column caption='U5Mr' datatype='integer' name='[U5MR]' role='measure' type='quantitative' />
+      <column-instance column='[CFI]' derivation='Median' name='[med:CFI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[CL]' derivation='Median' name='[med:CL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[CSP]' derivation='Median' name='[med:CSP:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[DR]' derivation='Median' name='[med:DR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[IMR]' derivation='Median' name='[med:IMR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[LR]' derivation='Median' name='[med:LR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NNMR]' derivation='Median' name='[med:NNMR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TFR]' derivation='Median' name='[med:TFR:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[U5MR]' derivation='Median' name='[med:U5MR:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.240559' measure-ordering='alphabetic' measure-percentage='0.759441' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Soce5' name='federated.17ms7nq0hwzif011gx5rp0ba6f0l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17ms7nq0hwzif011gx5rp0ba6f0l'>
+            <column caption='Cluster ID' datatype='integer' name='[ClusterID]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[IMR]' role='measure' type='quantitative' />
+            <column caption='Nnmr' datatype='real' name='[NNMR]' role='measure' type='quantitative' />
+            <column caption='U5Mr' datatype='integer' name='[U5MR]' role='measure' type='quantitative' />
+            <column-instance column='[IMR]' derivation='Median' name='[med:IMR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NNMR]' derivation='Median' name='[med:NNMR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[U5MR]' derivation='Median' name='[med:U5MR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ClusterID]' derivation='None' name='[none:ClusterID:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</rows>
+        <cols>([federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok] / [federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='96' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>67.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='97' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>29.050000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='98' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>48.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='99' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>69.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='100' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>35.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='101' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>53.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='102' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>89.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='103' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>46.090000000000003</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='104' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>67.10499999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='105' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>44.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='106' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>24.310000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='107' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>34.760000000000005</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='108' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>97.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='109' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>51.630000000000003</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='110' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>70.0</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{EF8F918E-E21D-4E22-B66B-C76F0C2C0747}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Soce5' name='federated.17ms7nq0hwzif011gx5rp0ba6f0l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17ms7nq0hwzif011gx5rp0ba6f0l'>
+            <column datatype='real' name='[CFI]' role='measure' type='quantitative' />
+            <column datatype='real' name='[CSP]' role='measure' type='quantitative' />
+            <column caption='Cluster ID' datatype='integer' name='[ClusterID]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[DR]' role='measure' type='quantitative' />
+            <column datatype='real' name='[LR]' role='measure' type='quantitative' />
+            <column-instance column='[CFI]' derivation='Median' name='[med:CFI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[CSP]' derivation='Median' name='[med:CSP:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DR]' derivation='Median' name='[med:DR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LR]' derivation='Median' name='[med:LR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ClusterID]' derivation='None' name='[none:ClusterID:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</rows>
+        <cols>([federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok] / [federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</value>
+                <value>69.349999999999994</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</value>
+                <value>85.150000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</value>
+                <value>93.925000000000011</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</value>
+                <value>69.199999999999989</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</value>
+                <value>81.400000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</value>
+                <value>60.700000000000003</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</value>
+                <value>89.489999999999995</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</value>
+                <value>73.400000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</value>
+                <value>73.75</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</value>
+                <value>72.515000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='10' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</value>
+                <value>90.705000000000013</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='11' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</value>
+                <value>56.545000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='12' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</value>
+                <value>81.509999999999991</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='13' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</value>
+                <value>61.995000000000005</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='14' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</value>
+                <value>94.694999999999993</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='15' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</value>
+                <value>82.509999999999991</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='16' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:LR:qk]&quot;</value>
+                <value>61.600000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='17' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:DR:qk]&quot;</value>
+                <value>82.150000000000006</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='18' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CSP:qk]&quot;</value>
+                <value>79.959999999999994</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='19' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CFI:qk]&quot;</value>
+                <value>47.600000000000001</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{039DBD73-9AF2-4D38-8AA6-AE01A90A5493}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Soce5' name='federated.17ms7nq0hwzif011gx5rp0ba6f0l' />
+          </datasources>
+          <datasource-dependencies datasource='federated.17ms7nq0hwzif011gx5rp0ba6f0l'>
+            <column datatype='real' name='[CL]' role='measure' type='quantitative' />
+            <column caption='Cluster ID' datatype='integer' name='[ClusterID]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[TFR]' role='measure' type='quantitative' />
+            <column-instance column='[CL]' derivation='Median' name='[med:CL:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TFR]' derivation='Median' name='[med:TFR:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ClusterID]' derivation='None' name='[none:ClusterID:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' value='-90' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</rows>
+        <cols>([federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok] / [federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names])</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</value>
+                <value>3.2549999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</value>
+                <value>2.3499999999999996</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</value>
+                <value>2.5</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='3' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</value>
+                <value>2.6299999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='4' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</value>
+                <value>3.23</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='5' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</value>
+                <value>2.8650000000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='6' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</value>
+                <value>2.3149999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='7' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</value>
+                <value>1.78</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='8' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:TFR:qk]&quot;</value>
+                <value>3.8799999999999999</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='9' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:CL:qk]&quot;</value>
+                <value>5.6399999999999997</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{53E383B9-DDA8-478C-A0FA-10661A683798}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <selection-collection>
+          <tuple-selection>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>67.5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>29.050000000000001</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>48.0</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>69.0</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>35.0</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>53.0</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>89.5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>46.090000000000003</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>3</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>67.10499999999999</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>44.5</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>24.310000000000002</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>4</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>34.760000000000005</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:U5MR:qk]&quot;</value>
+                <value>97.0</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:NNMR:qk]&quot;</value>
+                <value>51.630000000000003</value>
+              </tuple>
+            </tuple-reference>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+                  <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[Multiple Values]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>5</value>
+                <value>&quot;[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[med:IMR:qk]&quot;</value>
+                <value>70.0</value>
+              </tuple>
+            </tuple-reference>
+          </tuple-selection>
+        </selection-collection>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C05EAE36-4A44-47A6-951E-A3617E9C6A12}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{FA064EC0-4E5B-4C8C-9863-A0D6ED85060E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[:Measure Names]</field>
+            <field>[federated.17ms7nq0hwzif011gx5rp0ba6f0l].[none:ClusterID:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AD798957-438F-4ECA-9A79-5EEBC5C3406A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABYlAAAWJQFJUiTw
+      AAAgAElEQVR4nO29V3BcWZrn97smfQKJTHgPEAANaIpkkSzLYne57qou0zHTs2O0szPqid2I
+      kUJvitGbQqEnSaHYbikkRcxKI21sRG/MdMd0dU1Nl5kyLMPqrqI3cIQlvEkgvc+89+gBBAiS
+      uDcTBJAAC/mLQBBgfnnyy3Pud+8x//MdSQghKFFijyLvtAMlSuwkpQAosadRd9qBEkVAaHz6
+      z7+mZ2yOH7x6lr7RNH/w+lMPmYUme7kdKeOpwy3rFnPj2y+o3n+G9/7jvycll/Pij/6Ao52N
+      2+39tlIKgD1AeG6YiYSb/+a//msCswMIkeTdd37DuWe7uXAjwGTPZ8gVHbS4Arx/eQb7v/kJ
+      n334W54492Nmbn1GwlLDv/s3/4ql+VlcrRpKeS1//Wf/ir/9//6Bo53/dqe/3qYoBcAeQMtl
+      sDlcyIqKIi3/XyKRQNdzJFM5amqqWUhlOHzkKLnGc2Rm+mk78CThhWmSmsJ/+Zd/9FCZFpsD
+      VSnyF9kGSmOAPYC38SBKoJ+f/fxnzMUk3C4H1lyYX/zqQ2wuhXAoRjqdwlPXzvXzv8bW0MXE
+      SC/Oci+1DY1Y7kaN012GRZUITg/z73/2v3HszLkd/mabR9rOadBsNovFYtmu4recx8lfXdfR
+      dR1VfTwe4ru1brf1CZBIJLa8TCF0QqHwlpcL2+GvIBLwMzkzz1bfZnRdJ51Ob22ZWpbxsVEC
+      4diWlgvbcy2AYHHRj6Y/euU+dl2g+ZlJbg+N7bQbBSH0LOF4DjUdYHxue4J2K0knk/hq6hnt
+      7yO3084UQDoW5HffXiad1R+5jMcuAOoaWyl32XbajYKQZAu+cguT/gR1VWU77U5e7K4y5scH
+      SaKi7HJ9gBA6Q6NTdLY3baqcxy4AHieElqZnYJxTp09it+z+qk7EorQeOIrPqpHQdtobc/Rs
+      kkw2x+TEBLP+pUcu5/EYQa0imB4fRdM0Jmf9NNdX77RD5ghwO20M9PfT3N5JmcO60x6ZYlEV
+      Rodu42vuwLnLrwzF6uLkkyeJRsI43OWPXM62zgIFAgEU5fGZLE4kEjidzp12oyB0XSeTyWC3
+      23falYLYrXW7bXGu6zqyLON2u7frI7YcXdcfG381TUNRFFwu1067UhC7tW4fKQCWFmbovT3B
+      82efJjA3Rd/IDGefO8Nw3w0SGY3yqmbaGquQJAlZ3v193xVkWX5s/F25wTwu/u5WXx8pACpr
+      GqhdXJ7Wq6projq4PG8czwqOHz/B9Rs3kZqW++eSJG2Rq8XhcfFXkqTVn8eF3ejr1oakAIS+
+      5cWWKLFdPNITYGFmgmA4xJ2JGZxyllAoxJ2pWRprvNy42UNrx4Gt9rNEiW3hkQKgpqGFmoZ7
+      mvG6ptbV36sbWtd7S4kSu5JSX6XEnmaXL3eU2OsIITh//jzRaBRd12ltbeXkyZNbVv6uDAAh
+      BL/73e8IhUJkMhnKysp46aWXduUsQontRdd1YrEYb7/9Nrqu89577333AwAgFovR1tZGMpkk
+      GAwihCgFwB5EURQOHTrEb37zG4QQPPPMM1ta/q4NgObmZvbv348QguvXr5cu/j1KLpfj/Pnz
+      HDlyhNOnT2/5pppdGQCSJJHNZvmHf/gHkskkzz77bCkA9jCdnZ00Nzfz3nvv0dDQwNNPP71l
+      ZT9SAMxOjhJMSHQfaGOov5doKkf3kaOMD/YSzwiOHDuKVXn0CSYhBJOTk/zRH/0RFy5c4M6d
+      Oxw8eHBXLqU/7iQSCSYmJjh48OBOu7IukiTR1NREc3MzTU1N5HJbu1Xn0aQQtfWEhifRUxES
+      uDjWYaNnYBDVXsHhOsHITIiDTV5g+WJ+FGpra3nvvfc4derUav+/GFkcH/UzhBCkUiksFktR
+      9ukKIVZ/Nsrt27f5+OOP8fl8pFIpDhw4sGvrVpZlurq6EEKg6zq///3vOXv27Jb59EgtZbUu
+      98OE0JEUBVlV0bI5LE4ZRYGcpq82jq4/2na1kydPro72v/zyS5qamra9G7Sy0XyjaJrGL3/5
+      S6LRKE6nkzNnzrB///5t8PAeK3X7KP7u27eP1157jfb2dpLJJFNTU4/cToXyqL4CZDIZhBAM
+      Dg5y6tSpLfX1EQJAY3RwiNnZeXy11cgJP1d7dQ4ee4LRvltcDwi6j59AlmUkSXrk/QDz8/PE
+      43Gi0ShtbW1FuavKsvxI/qbTaaqrqzl69Chut5uhoSEOHTq0DR7eQwiBoiiP5O/AwADz8/M0
+      NTXhdruL0v151LrVdZ2f//znNDc3Mz09TS6X49SpU1vm1yNcVQr79h9i3/7lBq6tfHL1lWMn
+      njR604YQQvDNN99gs9mQZZnJyUlaW1t37RjA4XBQW1tLNBpl37591NbW7rRLpiwuLrJ//34+
+      +ugjLBYLL7/8Mlbr7tytJssyf/M3f8OFCxfw+/0cP358a8vf0tK2EKfTydNPP82JEyd2/RpA
+      Op3m2rVrBAIBfvaznzE5ObnTLplSXl5OTU0Nb7/9Ns8///w2pSzZOvx+P4FAgP3795PNZre0
+      7F0ZAJIk8cwzz9DX18fIyAjf//73d3UA2Gw2Dh8+jN1u5/jx49ve/dksJ06cWL3j+/1+otHo
+      DntkjK7rfPnllzz33HPY7XY++eSTLS1/VwaAEIIPP/yQ6upqpqen+eSTTwxnEIQQZLNZdF1n
+      YGCAVCpVZG+XA/bMmTM89dRTlJeXo2m7O6WCEIKFhQWuXbtGRUUFTU2bSy2ynayMIz/77DNa
+      Wlqoq6vb2vK3c1N8OBzG4/Fs+H1CCN577z1sNhsejwdd13nmmWfWfQpomsbnn3+OqqrY7XYm
+      Jyf5wz/8w0d6Yjyqv2vJZDJcv36dM2fObKqcfORyOdLp9CPtCR4YGGB8fJzDhw9z48YNuru7
+      aW9v3wYv77EVdbsd7NqV4Ndff51EIkFZWdnq/xnZzszMkE6n+cu//EsWFxeL6SqwHLAXL16k
+      t7eXqqoqXn755aL7sBGsVivpdJpIJEImk9mVA+Arkxf5vy783PD1KlcV//Nb//umP2dXBcBk
+      cJyff/G/GL4uSRL/69v/x33/J8syf/7nf04ul0OWZQ4fPrzdbj7EimDv3LlzpFIpvvrqK37w
+      gx8U3Y9CaW9vR1EUrl69ynPPPUdNTc1Ou/QQmq6RzBoPzpPZ5JZ8zq4KgIyWYTYybfi6xMNP
+      ASEEn332GfF4HICpqSn++q//ett8XA+73U4ikeDSpUu8/vrruz4X0uDgIAMDA4TDYS5cuMAz
+      zzxDfX39jvlz+fJlnnzyyR2Z6NhVAfCoaJq2OlN04cKFon++JEl4vV7sdjsffPDBlom1hBBM
+      T08zOTmJz+ejq6trS9ZCcrkcNTU1JJNJnnnmGZaWlooaAEII/vZv/5by8uWMbgsLCzz55Nas
+      IW2UzQWAEAQX54hmZZrra4gG/YSSguaGmqJFsyRJvPzyy6ufd+BA8TfkJxIJJElidnaWH/3o
+      R3z99de0tm5+b/Ts7Cw9PT2cOnWKO3fucPXq1S1ZBe3u7mZ8fJyDBw/i8Xi2fGYlH5Ik8dpr
+      r9HU1ISiKPT29hb182H5pvmLX/xicwGQS4aY8CeossQZn5NZnPdT7xbMhMpp9Dq2yte8rNwV
+      hRA7MgXpcDgIh8PIssw///M/b5m0wOFwEAqFGBwcZGFhge7u7k2V958u/j9MhiYMX3/14Ouc
+      btk6qbERK+20uLjIp59+yoEDB4re/ZFlmX379m0uAGTVRiYWIO6SCExM4qmppaFa4cZchLpy
+      K7qub0i+qmv5RU4PlqfrOn19fdhsNi5fvkxjYyNtbW0b/SqrZW3E31QuReruYOy5F5+977XF
+      qB+LYsFlffR0gG63mzfeeINIJILL5aK9vX3VP03T0DRtQ/6OLA0z5B8wfP1E46ktlxuvsLZu
+      V9ZsVFXl7bff5vz582Sz2fuCQNfz38g246sQguPHj28yAKx2ug8fITgzQllnA9OTs8xogpqq
+      DhRFQZblDYnY5AL2EDxYnqZpTE5OYrfb+dM//VM+/vhjFEV5pDvKRv39uO99fnX9Pxu+/kTj
+      Sf67l/77DfuxwszMDH/3d3/HyZMnuXbtGj6fj+bm5tXXFUXZkL/5amSj338jrC1bCEF5eTmh
+      UAibzUZVVRWqqt7XZrKcfyJhM74mk0muXr262UGwRDQ4j1LRQJ3Pi1vWCCYFzZ7iZSxeeZSt
+      zP9vRd97t1BfX89Pf/pTvv3229VdUd8FJEni+eefB5aDIZPJFN0HRVEYGhrafADUNbWt/lXm
+      rabMu7kSH4Xp6WkSiQS/+tWvqKys3PVanEKRJInGxkZ+/OMfMzk5yezs7I5OV24lCwsLxONx
+      2traOHLkSNE/32q18tOf/vTxnwZdGVDV1dXh8/kYHR3daZe2HFmWqamp2fWqzUJZEbh5PB7S
+      6TSTk5M7snouSdLuFMNthJU9o9lslrGxse/MHRKWjxadnp5menp6Vbz2XUCSJFwuFy+++CKD
+      g4MMDw8X3QchBDMzM4/vE0DPBMhGbwGwvwFoALADITKBL5EkC1bfsyYl7H5isRi/+c1vOHLk
+      CJqmbbkWfqeQJIlTp07h9/vp7OzcEfmKEIJf/vKXj28AaMkx4iP/k+Hrklr+2AeA1+vlz/7s
+      z/B6vei6zvz8/E67ZIqu60iSxPT0NDU1NYYiOyEEn3/+OQ6HA7fbTTAYZN++fUX1VZZl/uIv
+      /uLxDYBicPHiRebm5tA0jWeeeaboK6aRSIQPP/xwdabk2Wef3dVdvM8++4yqqirm5+f56quv
+      +JM/+RPD6WiLxUIqlULX9aJkpHgQXdf56KOPHv8xwHaRy+Xw+/28+eabvPXWW1y+fLnoPvj9
+      fo4cOUI2m+Xtt99mdna26D4MDg7y7rvvomkaY2Njpivtc3NzXLhwge9///t4PB7DC3tF7v7a
+      a6/x/PPP89prrxV9JTiXy+HxeEpPACNUVcXhcPBP//RP5HK5Ld+MXQjt7e18/fXXnDlzhi+/
+      /JIXX3yx6D6MjIxw9uxZfvvb31JWVraq31mPN954A5fLhaqqPP300w8J96bDId7pu2X4WVZF
+      5d+d2drcn0ZYLBZqa2s3HwCpRIxERsfrKSOTSpDKQXmZK++q425H13UaGhrQNI2+vr6iHkfq
+      H5klthgBoMlaAxE4VneQxb4ZFoHy2go8TZVF8aWyshK73U5nZycff/zx6gLWevzqV7/C4/HQ
+      1dXFE0888dDrqVyOyXDI8P02Zfvvx6GZAMFJPwBeXJsMgFySW33D1JbJBON1BGamcFt1MvuO
+      Ul1m2wp/dwwhBF988QUdHR0kk8ktT8pqxuS1USavjRi+3v7MwaIFQHNzM1arlYGBAc6ePWta
+      D62trbzyyisMDg7yySef8Morr+y6ZAb+4Rn6Prq6+vfmAkCxomdizCwKWsp8uKtqOVglc2Mh
+      hM9Zta64bHZ2lkwmQ0tLy0OVsxExnJbPVjwslhJCEA6HUVWVL7/8ktOnT1Ndfe+0+Qf9/au/
+      +iuuXLlCKpXC6/WuK8QzdUGIRxJsCZGnXF1/JDFcvqHmeu11/fp1ysvLefrpp7ly5QqHDx82
+      7AKdPHkSTdPo6OigoqLivvGCrutoeQVuYo1gbnvEcA+22ebk0IkwFk8dh5uc9I9HQFYIqIKK
+      8oZ1xXAffPABFRUVOBwO3nnnHX7yk5/c10/ciBhO5LOVHhZLZbNZbt26RSKR4Ny5c3zxxRe8
+      9dZb9z5/HTHYU089xcmTJ/n2228fevzn25wiSdIjCbYkKU+5d7OsFUMM53Q6GR4e5syZMzgc
+      DqxWq+FdvaqqavX3paUlamru7QuRZRklr8DtXn1tlxjuwTbbVACozgpq3SFGZ2Mc6t5PaGGK
+      paSgs2n9TAW5XI6KigpcLteO6PZlWWZxcRFN03A4HHn79cFgEJvNxujo6I7tWNppzp07x7lz
+      54Dl/Ee6rhs+AS5cuEAgECCXy+FwOB4LTdbmukCSTGPrPhrv/lnb0IJZUsBXX32VS5cukUwm
+      eeONN4reP1QUhWPHjmGxWPj6669NG0jTNH77298Sj8c5duwYn376KW+88UYRvd0dZLNZIpEI
+      lZWVnDp1yvSpF4vF6O7uZnFxcfVMr92+P7qo6wAffPABS0tLOBwOrly5sm2bL4zQNI2hoSEu
+      X75MbW0tt24ZT8nBcor2F154Ycc2bO8G3n//fb7++mt6enr49ttvTdusra2N9vZ2Tp8+TWVl
+      5a7N5bqWonpotVr50Y9+xMDAAAMDxjuTtgtJknA6nZw9e5aOjg7TFUhJkjhw4AAHDx5EVVVe
+      eOGFInq6e7Barbz++uuMjIzQ19dnanv16lW+/vprYHlA/DjcNIq6EPa9730PXdf58Y9/zI0b
+      N4r+eJRleXUxSdd1U2lDNpvlH//xH2lqauLIkSO79gSV7ebJJ59E0zTeeustJiYmTNusqqqK
+      zs5O3nnnHerq6njuued2fRAUNQCcTue9Dy5Cvv/1EEIQjUaxWCx5L+qTJ09y9uxZent7uXLl
+      ypbmpX9c+OCDD3A4HBw8eJDDhw+bdmsaGhpoaGjgJz/5yWqept1OUa/C3t5ebt68SSgU4umn
+      ny763UEIwa9//evVgd3x48cNc3haLJbVQd/Ro0eL6uduor6+nldeeYWBgQE+/PBDXnvttfuC
+      IJfOEphYAKDG5mVh6F5iszjLq77VnQ3FdXoDFDUAxsbG+OM//mM++eQT5ufniz5LoOs6qqry
+      1FNPMT09zdLS0kM2fQtzfD0+ZlhGjauMt7uLv4Vvp1iZADh06NC6s2bxQJTf/8dPTct483/8
+      19vl3qYpagC0tbXx7rvvcuzYMaxWa9FnCRRF4ejRowwNDXHkyJF1N2KEU0mGl4wT7KaLPHO1
+      UyQm/1/0zBI2ILaOfMfV9l8hKRvPTL3d3Lx5kzt37qDrOs8///x9i3PrUdQAUFWV5557jo8/
+      /pjKysqi56XXdZ25uTkkSeLGjRvkcjl++MMfFtWHx4VM8Bv0lPFJN86Wf4u0y6b4c7kcExMT
+      vPnmm+i6zvvvv8+bb75p+p5NBYCeTTM0PMLS3CRVXScJT4+g6zoHj5/B43i46OHhYbxeL2+9
+      9RZffPHFjiyUrGjqT506lXcdYDtIp9O8++67OBwOUqkUJ0+epKOjo+h+fBdRFAWr1boqYS9k
+      5m5zibEsNvYfPMSNVJqWcsFoppkDVRK9swEOt1Y+JK46efIkn3/+Of39/Zw+ffohsdh2i+EA
+      Xn75ZS5dusT4+Djf//737/98Xd9QuY8ihgsGg3i9Xs6ePUsgEKC3t/ehXEa7SQxnhKbl0KVc
+      /vpasS2SGK6uro7R0VFkWaa6ujqvgHHTXaBEcBabpw6LxYqWTZBKCuwO16oYTkgSE6HgsrHN
+      ylM/eHX1veN3teFtXh+KLG+bGC48G2D61p3VlxrwQQrGv74NgNVpo/P5w3eP8iy83EcRw9XW
+      1uL3+zl//jw2m41z5849ZLObxHBGKIqKrKr562vFtghiuFwux/j4OG+//bZhF2hLxXAA4bhG
+      V3sTClCmzjOyKDh8qHz19Ug6xX+49HvTMv6Hl36IYxsHxFF/mKEvegxfd1WW0fl8cTITzM3N
+      rUqxn3zyyV2vlXmceLALVEim8E0HQMOadH1tHcVPTf64oes63/ve93A6nbzzzjscPXp0R1K6
+      fxeRJGn1ZB5N0/jd736X9z2lPcFFpqysDKvVSnV1Ne3t7XnHEYUSDodxuVwMDQ1x584dXnnl
+      lR1bbd9JQqEQqqridrs5efJkXvvdL9f7jlFeXr66Cy0ajXL9+vUtKXdgYIBoNMrg4CBHjx7l
+      ypUrW1Lu44Smabz33nu8++67hEKh0hNgN7JyouTCwgKSJPHSSy9tSbm1tbV8/vnn1NTUEI/H
+      8y4AfReRJAmfz8crr7zC3//93xf0BCw9AYqM3+8nm83y5ptvcu7cuVX58Gbxer28+eabVFVV
+      MT4+/siHhDzOyLLMCy+8gCRJHD16lLNnz+Z/TxH8KrEGr9fLwsIC7733Hh988AFdXV1bUu5K
+      F6i/v5+DBw/uSCKvnSaXy3Hx4kU+/PBDnE4nN27cyPueUgAUGUmSeOGFF2hpacFisaweBL5Z
+      ampqOH/+PFVVVSSTSSori5M2ZTchyzJLS0v4/X4ikQg2W/7UPKUxQJFZXFxkZmaGubk5Xn/9
+      db744gteffXV/G/MQ3t7O+3t7cDyWkM6nd50mY8bsizzk5/8hP7+fhwOR0H7N0oBUGSqq6u5
+      fv06PT09RCKRgvqpGyGZTCJJEg0Nu1eDv9Vkw9dJ+99f/bvVBugQv5tbTLbV4mz+q3Xfu+lz
+      gocGesnoEu2d+xnuu0k6q3P4xEmcltIK51qE0EDoyBL84NWX+MGr92Z/hJ4FSUbahLxycHAQ
+      t9vN+fPnqa6uprW1dc8ssGnpOTKBrwxfV5wdYHC8mmEApKOL/OI//5K6pibsNft58fTDyjo9
+      E2FqIUx1ZQW5eAClvJYTlTAwHaS7xYcQoqCFHl3X0DS5INuVfELbYavrOrqeP1X3vXLz2Ip7
+      tsnJ/5vMwruGphbf93C2/7fLb8uTLnylXvW7ojhY3rx+69at1XxH2Wx2w7mXhNALfo+uaQhZ
+      K7h9V/zNx6O0b17x4H2299et4SDYPzGA5G1DSywxMjFjYCVR7qvmUFcdg0PTd1WKOooiI0nS
+      6k8+JElGlmXkPCIwWO7nybJcULkrtvIGbDdSbiE7OgstV5KkgsuV7tqvfU9LSwvHjx/H4XDg
+      9Xrp7u6+9/3v/uRjbXl5bVd8LajcFdsN1O1GbPPV7RrbByvX0Pv6/adoLssS0cr4g1fXT1kt
+      28rw2nL0Dkyyr/sQlkyIvskQHQ0Vq04VFgB3A6WAC2pjgbVSbmG2y/9uoQ/SGh8K+HIF2675
+      /JWflbt/KBSir6+P8fHxh2wK+GYbrtuCSl2p2w3UwUZsN1K3D1oadoFigXkWw0lS/jt88NUN
+      /vXrT69XLPv2d6/+5Tt8LK8jJbaHbDbLxYsXqaio4MyZMwwPD6/OCpUwxjAAZNWCx+PBKdUQ
+      yBX/IOMSG+PEiRMEAgFsNhvJZJITJ07stEuPBesGQDIWZtYfwuv1gq+Sp7v2ZlKox4FLUxMs
+      xGIPvxBcznjRVVXN/qrqh18vARgEQCoRY27hXmaEaDxBja98PdMSO0zv/Bz9fuPTI62KUgoA
+      E9YNAG9NI0/oKf7P//Cf0ITEMeGho7m4JySWKFEMDMcA0aVZmg48gVdNM+M3zpNTosTjzPoB
+      kAozuCTx4rmzxPzTvNDRva5ZiRKPO+sHgNVFc5Wbi199SjAc45ji4XR3aUqtxHeP9RfChE44
+      HCIWT2Kx2rBZSpq5Et9N1r+yc2lwVvMn/8VzWFTVdHW09+ZVJNVO674upkYHiGcER44ewVpA
+      vpgSJXaa9a9SWxmnnujGajG/+CHH0mIQm7MMSy5CxuKhu9nDyEx4VXSUR9d110bkFYA9aLuh
+      cgu0Xf53C30Qa79b/oILthX37Auh8PoVBdtupM0KaoCHyt3C+sLY3032bVReePFFogt36B+b
+      R3WWo6qQ07R7F0lBakG9YLXgio2eRwGI2IDtGh8KadSVcvOpEO+3LUzhufy7eZlr1aAbKjeP
+      r0IvTL0Ld79XoQrPR2nfAlS5hdetcbmbTo57e2iIdDJJY9dhZof7uRYQHD5+YlWlV0i6w5U0
+      f4WoEFcyqen5bKV7toWWu6wYzC+sKrjcNT7kTXcoSWts86gbZeluGkelIJXparnm3q6mXCwE
+      RVGQC20zWSlYZbrRNoNC6nZtuffXwqaT4x5ac1hE9cm9eZZuiceX0ki1xJ6mFAAl9jSlACix
+      pykFQIk9TSkASuxpSgFQYk9TCoASe5pSAJTY02w6AITQuX79GpouGB+5zc3egYKWsUuU2A1s
+      OgDmJ0YJRJNkkyHCWSsdVVaG5yNb4VuJEtvOpqQQWibOhD9KmU0iEU+gWq04HBKpxfRqqsFC
+      Uu1pWo6cJG3bOcGFlrud5wTnTd+3Eds15wTnE4Lp4t7Zv9/Vc4I30g5be06wpNJQW8Xw8G00
+      1UncP8iVBZ39T5xaFZcVIq5SFBVVVbftnOBCy93Oc4ILEcMVbLvmnOB8YjhZunf273f1nODc
+      BtphS88JViw2mpqbaWxqAqDqzBkEhaVDLFFiN7Alex3XXvClS7/E40RpGrTEnqYUACX2NKUA
+      KLGnKQVAiT1NKQBK7GlKAVBiT1MKgBJ7ms0FgNCZHBuh//YQWU1nYXaSodGJDSRMKlFiZ9n0
+      E6CqvonGMsHQ+DRTiwm8SoKJxcRW+FaixLazSS2QTDKyRO/QDJ1dHYQkN5U+han5GE0+e0kM
+      VxLD3bP9LorhtGyaZBa6OhoJxnTi0SUGYzqNbYdLYjhKYrj7bL+TYjjVittpI6M7ONhYQTpZ
+      STIrqCizbabYEiWKxia7QBIeb+Xqn3anG/tmPSpRooiUpkFL7GlKAVBiT1MKgBJ7mlIAlNjT
+      lAKgxJ6mFAAl9jSlACixp9l0AMTCS4zcmUQXglhokak5/wbOBCxRYmfZ3EKYniUUy1LjzNI7
+      OEEqEaXOpTNrd9NQ4dgiF0uU2D42FwCyhSqPnRu9E3R1NDFv9dJUrXBjLkJtmbUkhiuJ4e7Z
+      fhfFcOgZbvQOc+r0aSQtwdj0OHO6oLpyX0kMR0kMd5/tLhXDbWoMIIREhcfJ7YF+wimZzqZK
+      MrZKGipKiqASjwebegJIioUDB7vX/I8DzyYdKlGimJSmQUvsaUoBUGJPUwqAEnuaUgCU2NOU
+      AqDEnqYUACX2NKUAKLGnKQVAiT3NJgNAcGeoj5v9IwihcfPaFS5dukwim18fUqLEbmCTASDR
+      1tGFRRLkYkGU8lpOdNUxOh1A13WEEHmFSrAsfFo5VjUfKyKwjdiKAm11XS/okO9VH/LlQBUU
+      LFoTQmzIdtlXHZFH4ra23HwIoRdsu5E2W/FVzyPyg7V1u4H23ZDt/fW1JYfkAWzTyhMAABjs
+      SURBVEiydFeluCw+kyRp9Sfve6VlezmPCGzZVrrv30JsKdBWluUNlVvIgYD3/M1vV7DtGnsp
+      nxdS4ad2ShTWXss+3m3jPEK0Zdu7datvoG430g4buRYeYHMBIHKMDA2xuBiiqrYaNROid0Jw
+      5FjThp2TZbmgK2pFzVdIuY9mu4U+SGvVh4X7kNd2IzcXpLyq1bXlFmq7elEXaLviSz5W63Yr
+      6wvjNtv0QdkdB7rpOLD8Z7X32KaKK1Gi2JRmgUrsaUoBUGJPUwqAEnuaUgCU2NNsaQDEQktM
+      zy2W0qKUeGzYsgDQswn6x2bQwjPMhZJbVWyJEtvKlgVANhHDXeGjubGG+cXIVhVbosS2smUB
+      YHG6SEQizC0EqK4s26piS5TYVrYsAGSLi44mH2mrt5QVrsRjw5ZpgQAqKmupuPv7iuhI6DpK
+      nqXq1QxyAiySxdBOkqRVoZamg46JLZZVWyEEkmLsg6TI94RSAlN/Fe75ICGZ+qugrvFBNvVX
+      F8o9EZqMqb9I9wRmMub+SojVclVJNa/fNd9NYDH3V9cRdwWBpr6u2AqBEMK8bte0b75rQZXv
+      ta8upDzXwpp24P66lcQ2Heuu6zrBYBCb7eETI4UQD2kyNE17KIvcimvbYbuejiYej+NyuQqy
+      3Ui522GraRqZTAaHw5HX1qhu1rPVdX1dndFm28yobtez3a72Xc92S58Aa1lJs+d2uwuy13W9
+      YCHWdtlqmvbY+JvL5VBV9aGLaj2MLh6jzy9UaPddqNuiLoSFlvxMTEwwMTHB1PQs2ppnz4OO
+      zU6McuPGdfzB2EPlPGgbDfrp7R8km8sxMjKGMCk3tDhH3+1hNC3HyOgdE2915qYnV/1dWAoZ
+      +iCE4HbvTa7fuEU697A2/T4fhGBmYozR8Wly6Th3JmdNbSfHhhmfmiOTCDM54zf0NpdJMjk5
+      sepvNJ5afe3BC1rLJLh29Rp9g6MPrdk8KAlPJyL09vSSSOeYGBsho99vu5ZENEhvXz+prMad
+      0RHWqYqVL8bSwuyqrzNzftM2uzM8wPXr1wknMg+V9KDt0vwM/YOj6HqO0dFxY1shWJiZLG4A
+      KKqKzWbDZrNhtVpNeoOCUCzFE8eOsDg7k6dUwdjELPvbavj0488o81WbSJp1Jqb9dDR6+PCj
+      83ira03KlbBYrav+WlTjZK1CSyFUN/tbaphdCJp6m01FCKUkHFqELy/eor7e2IdUeJ6E7EaP
+      zPPtrRHqaisNbSVJxmq1rfory8a1G5gep+nQEzj1FMk8e1+GR+6w/+B+vvniY3RrGVaTK2Z0
+      bIL9na1c+PRjVLcP1cRWVdfUrcWsI6KRzMDxJw4yMz5l7iwa03NLtNU6+ODDL6isrTO0FGjM
+      +cPFDYDZuQWqfG7iiSw11ZWYtBGynqWv/zbhSJDB4TsYb9QSpOMRhsYmUVWVcCiI8ahGJxEJ
+      MTIxi82iEgqaXaxZlgJxpEQYm68Wr8dkaleSSUSWGJmYwT87wdTcoqGprmsE/XPMzC9itVkJ
+      BEOGtpqmE5ifxr+4hGq1EAxHDW0jc1NIbh+RcJja2lpcjofHXitYnW6mRwZYDEcY7u8jFDVe
+      uNQySYYGB9EllVQsYnJXh2wqztDwKCgW4pHQfU/4+xHM+wO4LYKc4qC60mty05LQMgn6+ocJ
+      hxcZGZ82dgCdWCjI6OQ8dptK0LR9NcKBpe0bBAOEw2E8nnvpcq98cwGb08nsQoTmlma6ujow
+      mkAIh0KUeTxM3xkBu4em+mrDJ4bQsgwPDZGTLHR2dmApIGU3QCgUoqKiYvXv+/3N8MUnF1Cl
+      LJbqZmorK2ltXP9uLYQgHI5QXuZkcGCA2tYuvG7jDNnpeIThsQmc5T7amusL3IWlEwpFqahY
+      9i+Xy5FOp1fHAIGJQQYWU0T9szQ3N1Pb2EKlZ/0+t55LEU0KrKQYHp/nUPcBVIO7kRA6k2Mj
+      RFM52js6cdqMZ1vWEg2HcJZXrLbv/XWr881XX2G1yER1Ow11tXS2txgGQSgUosLjYXSoH6ev
+      gbqqivUNWe4KDo+MIVkcdO5rQzG7yy5/we0jFArd93c6lRK6vvx7KpUyeacuent6RCriF7du
+      3xEDPT0iqxvb3rx6SUSTGZFJRsXla7dWPyMf/X19pv7e81E39VfLJUVf/5AYH7wl5sMJ0dPT
+      a2ybSYqLl66KnKaLwPyEGBiZKsxZkRX9fbfv/ZXNilgsdu9lPSdS6ezyZ2QzIpPNGZbkH+sT
+      c7GcuHblikjGFsXt4RlD26G+G2I+EBVaLi0uX7oicgXW7ehAn0iucWG9ul1uJ/O6FUITvT19
+      IjQ7KoamlkTPrR4TW11cvfStSKazIhFZEtd7bpvYLlPULtDI6Mjq79NjI6RMHqcuu8qN/lHa
+      25pAlk36ajo6CrlUnHgqhyzMTjjRuTM8SF9fH319fSh2s1kJjdE1g+TRkVFDS0m2oqcj+OMS
+      1W4VRbUa2mZTcRzOMqKRMJLVRSYeNrTNZZIM3PW1r+82nspqQ9vo/DgLseyyP6QZHjHuKnhq
+      6pnsv47TW4OWSmI3mZ1JZXSsUo5INIFLFSRMxgyzk2OrdZvCgsWw0QSjo/fqc2xkxKSLK2GR
+      cwxMBmmr9yArZuOFHEhWUokYaU1GZFOGlkLoDA/0bd806Ho4LRIDI2P4nCr+aJo2k6eTUKyc
+      Pn0GSRLY7XYThalMc1MD8XgcgIamZhMPZNo69xforUw2GWZyZo5cIoSumBz6IXRcFdUcbm1G
+      CB2b1bibYHF6qKpIrfrb3NpqaKtaHRzs7jZ8fS3Oikr6bvVj05pZmLqDt/mgoW0mmaBl/xFq
+      ym1kEwHkqPGdqKW1mehdXz21TThNDm6pb26nviBvQdUzjIxP4ZCzxDPCdKnUYi/jqUNtgMBu
+      N765gEpTY+1q3Ta1GNetJMl0HuwubgC0dh4iHg0RS2mcOXXcdAN6LBIhp+uoskQ4FKbJ0FLC
+      Zzqbcz96Ls3Nmz1Y7Q7s7gr2tTQYlnv0xGmCS35kdxNt5cZ3SSF0wuHIcrqSXJpoLGFoKysq
+      dQ2NBfsbW5plaGoRm0Whqq6RGt/6R5Aodg+nTx7F71+ko/s4DpO+upZNE8smqSm3kYzHSGec
+      hrblFZWUG3e5H0DQd/M6qDYUq4POjnaDMZ5E1+EniIQCZHSZky3tpjOCkXB4ecVZaIRNJgJA
+      orqu0BCEbCJc3AAAsFhtOESWWCyO2+02CAKJrs59DPT2IISgvs14sLzMvYq3OMrobGs2DC4h
+      dFSbm/b2lrznUEmA3eEkp+kkkymcjvWfArJiobnOy61bPQgk9h88ZFpuJh6kd2gKm1XBW11H
+      fbXP0DabTuKtaaK2wo5qMbv7Ld/VnC4X2XQSWZawGUwvltW2ERwd5NatSVSbmwNdVSalCkZu
+      95HWJGTFSmdXp8n0pkBDobO9HUky67YuY7XZIZsjHk/gcjoN2kymc18TPbeWr4W2zi7TMvVs
+      it6+ARSLdXmSocl4KlTXMsUOAJ3eWz1U1dYhKxacbjdGl6DNWcbRY4VmmdCRLE4OHTqQ11JS
+      LLgdKvPz81gdbhpqjRs/HQswMDJLdaUHu7PMMABAwlfTgK/G6GlyP9lEGF9TB61VxnfeFZye
+      KgJzi8ynZTy+arzlxiu/M2ODxCUXDotEhWI1DABJkmjtyF9XK2R0he5u4y7VmpLxesqYn59H
+      Vm00Ndab3Nk1em7eorahAdVqx+U0rgtneSXHjhmvgdxXai6Nvbyarvb8T1nVXlbsAJDQtCyZ
+      TAZZyTf7KpgYHSKWyqFanXR2tJmsG0hIeob+/n6sjjL2tTYZPgEkIJWKEY6ksJdlTANAsVpJ
+      JmJkyhwoVvPjQ/VcmsHBYXQkyn01NNUZl2tx+YiMjNDvV/FW1VFX7TUpWSPonweLDclWZhoA
+      VqvKXCCG4rah5cnYFgsvMT41hyRJNDS3U1FmrOC1q9Df34+sWuno6DBd4MpkkvgDUVSrg8ZG
+      s+6IRC6XIZPJoEvml6EQOqNDt0nnBDaXh45W44tbttjJxifo74/gLPfS2mj8BJAQxe8CdXV1
+      Mb8YREj5jsHUiSY1Dh8uZBAokc0kCUbSWJ1p9rUajxi0TBLZVobbbUWSzC9qxeqio7WBSDyV
+      N2ViKrSArbKJ9toCjgnU0kRDYSSrBV11mQZAaH4OX6UP1VdLYjEI9cZ3Ql9dC7HMJFlNy7st
+      dX5uno4Dh7CbXc13yWQz+P0hFMtyABijk8qA2+XGqkhoApOuq0RXVydLoShynrOGRS5NRljp
+      7jb77BVjnXQmSSyWwZHWTQMgGVosdgAIxu4uZ1uUFHqeChLZJP39/ag2Jx3trSZPAA3Z6qai
+      wo6UZ+FDsblorFcJLc6iW8w37qSjSywEIyBU0plFmuqNpyEt7gqWegZJBZyU+6ppNHmypMIB
+      qptb0IRELmG+fbSqqR2PkJgYHaa2aZ+p7cz4CJFQnIqGOhYDMbxlxt2KijInA/392FSZ+uY2
+      KtxGTwBBTqj4vB4skkwWMwWlQmtbK8loiHBamEyDAmhMTM0gSSpKOoOg0bC7JCkW0rEA/f0Z
+      bC6PycQFaOkkLm8tihpDksxvA05fXfG7QNU1NaRjYYLxXJ40hBJOp53FYBTVZiZYEWiaxP79
+      XcTDAdKSsQQAdELBIIsL82R1cJis1gJYbE6qa+rxT4+hOI0HqgCKomBRIJ5IIFkSYDAxJYSO
+      q76DNh38c1OU72szLDObihOJxZlfWAQkstksYNxVKavw4aqoZPTOJDWN5sFisTvIJubIyQoZ
+      k+rVNMGB/V1kkjGWYlnsJm0WDgUJLvpJZHKoVkeeG5xCTW0d0eAiKZFnx4gk43DYCEeiZHSz
+      qBIoDg/tTWWElxaQHcbTV0JoBJaCxQ2AdDqDt8KDVl5OtSQbDoCX0UllweV2Y5FBx1i6mkjE
+      8c/NktXBYneDb/0vnsukmZ+bI6sJFGXN5ot1EWSFjNthxd15AEU1lwDEAws4vVWAhVzSeE+0
+      ruWIRiLM+5cAUOIJ3I71Z3dSyQRzc/MISUbCPNO2ls1gL/OSzWQ4cOAANrv5rrz5hUWqvOWU
+      VVcTXApT41nfPpGIEwksEktlkRULmqhBXfdq1fHPzZLMLmvu89VtOp2hwlNOeXk5Up7ZOD2X
+      QqgOXC4LsmTWXRLEImH8fj+aAIeu4vOsP2bKJuPM+ReKK4bTdY14LEooFCISiWLe81NoaWul
+      2leG4vQY3kn0XJbZqSkC4SialiMWf1g+vYJqddC5rwWbq5zu7m5yqbjJ5wu0XI5IOEQoFCKe
+      MF5VBHBXNdBQW4uai+KtNu53phMxpibHiaeyZDNpEqm0oW2Zt5oql0r9vkMc2t9OOGgcWELX
+      yWZShELL/qYz5uObppY2GlpaWZhZoKHRqLumszg3w6w/gKZpRGPGdQsynQcPoCoWuru7sYis
+      yeru8rUQDYcJhUJEY2btALJqp7mxEW+5DVeFyZRxKsn09BThWBJNyxE3WY+xOstpq/UUMwB0
+      ZifvcO1GD9FolKHbg6ZqwXAoiH9misVgFC2XNVR4yqqV/Yf2Y7e76O7uRhXm+l7F6iSXCNLb
+      24dkNe4jZ1MJRgZ6GLwzTTQaWVY5Gnmr5wgEQkzeGSWZ0cjljC8+Z7mPJp+LmrYDHD58kGTU
+      PIOGr66RiYGb9PUPU+Y1HmDHoiGuX/qWhWCEoH+KiTljJWQyEiIWjzEyOg7SStdqPWTau/Zj
+      tzvo7u6mwqZiZLlib1N1enr7SOqK8U1LyzF5Z5Sbvf1EoxFuDw6bDNp1wqEQM5N3CMVS5LLG
+      dWuxu+hoa6TcV0N3dzciaz6+cnpritkFktm3/xDRWIK6hkbSJoM/IXQWZmdJa8s7ePQ8swSg
+      4nGp9Pb24Sz3mWfLlmScdjuxnIzHZTxesNjddB85zI3+cRrq68jk5g1tM8k4cwsLCCEh392v
+      a4ansZPZvn76kKhpajO1lVUrNhVsznIsJjufKqrqOHQgwVLGSoXFTkQztk0k48z7g0iSDEI3
+      kY8DyNT6yujp7cVic2I3vWVKOBwOgsk4jbXlhs0gKxb2H+omFkvQ0NBIMmUcVlo2w/zsLFld
+      IMty3uldq8uLPHOb3t4gnso8CgFZLXZqRInDh7sZHhyipbPLcHOFJCl0HTqAIqt0dx9C0dN5
+      ukuQTCaXxXB6BrM5QC0TJ6FZUEWOwNKSaZmqvZyOpkrGphbo7Gg3tLO5PLRWuSmvb+NQ9yES
+      EfNNMXouTTqbRcgqSdNuBSxOjVHZ1kUmlcA/v2BqW9XQji0bIpxRaW00nrGqrG3EbpHpOniI
+      rvZaguvsultLIpkiGolhVWTTbg1oLIbiuKwK0UCAbJ7A6j7UxdDIHTq7Og1n+BSLnc6udiw2
+      F93dh9BMu62ArpFOZ8joElrKuAsEkAzMFjsAdHp6+7FZVZZmp0mbXtUyFjlHT28faaHkGTDn
+      SKQFbrtCJGzepVCsLuxymlAoRHmeO0QmEWJsLoQq6UxO3DG1dVXWEZgYpK+3D5vbfC0gvjiL
+      u74VKZsmGjHTtixPg/rHBglHYjS2GK9vAMxPDJNRHYhsgtFRs40jUFtdSV9vD7eHpvB4y00s
+      dULRBFUeN/FImIzpRa1Q6XESDIWRXZ6806C9/SNYVJm5qUnTwJJVO3o6TG9vH1jMZ+6yqRi6
+      tQybpBPJ0710+OqL/wSwWWTm5+cIJ3MGswn3bF1OFxlNotq0gQBUWhqryWQ16lvaTKZXNT55
+      /z3mFsMoqpq3ghTVipaKMTs1BWqeXEeKBafdgsXpxmkxD9ey+n1YEwE0WaW9o83QLhme57cf
+      fko8lUVRZWJ5Bos2p5OQf4GJ8SncFeZBaLM7kXIZKior82wql+lobyaRyeKta8RhYvrNF//C
+      8MQcqqoQjUTyPC1kLLLO/OwMSS3feTASTocTXbaYrFcsY3VWUO1WyWo6ze3GC2dCZPntO78p
+      7o6weDRMIrW8sVmSFXw+n+ni1q1bA1hUGUUI2g51YzGYfvvd55+hOD3IEtjdXo4c7DQMgnQy
+      xsTkNDlNUOatpKnuXlfhfn8FwaUlcndb0Wpz4DFRhMYXxpnTy8gGFtCFoPvw+oK4bCrC+c9/
+      j7dyeTajprGV1oYag1IFoSU/c/4AkiRTXdeA7+4urwd3hGnZDIHQvb0FrjIPThPp8GBfD9W1
+      VQSjcbJZOwe61pcX3Lz0NTFNxaLIKBY7R48dNbyza9k04+MTpLM57K5yWpsbV9v3wbqNhEKk
+      7w5oZdWKr8Jj2GZaNsnA8BQKOXRd0G2oDshx/qOPcfmqkIAyXy0HO1oMbAWJaJH3BI8N9nL1
+      +k1mF/wkEsk8y/UKvjIbgVAIxe0xeVpIHH/yFOVuF253GTXVZqIpga6Lu9vkBLmc2YyRxvVL
+      39DTd5ulYIhU+uGMBGtxVjWSXZwiFA5SWW/cVVFtbk4eP4LL5aLcU2G611gIsXwYHQJNy5ne
+      UdPRJb69eImh0TtEojGypt8NWlubuTM2weJimJY2Y83OgSPHqfKW43a7qa6pMVXlapqOenc7
+      qtlsDcDt3mtcv9nLwmKAZNJ8illW7TjVHMFQiDKf8dgGFE6ePkWZy4W7rJzqSmOJiRCgiyKn
+      RTny5LO89L3n8dhVRkbNN7oP9l5nxh/EoqpEI1HTxre7yih3OwCdpYDZAFTn+uWLBKPJAo5w
+      Vfn+D3/EU08eQ09FmZg1HoAKPcuVixeJJtMoqkrMdGArUeGrxKrKaNk0oYixbSYW5PK1m2Tu
+      7kTXdeOL2umr50evv8ahjhYWZycImmx0jy3Nca3nNjkhIQmduMmMnNXmwOcpRwChQMB0MmLg
+      1lVml8LLdSt0kxucxOnnXuTcc2ewyzlGTbM96PRev8xiKIaqqkTyjJnc5RU4HVYQmmnCAdC4
+      /M23xV0JXpiZZDEYQbXaefbZp00HSeUeL1niWG026hoaTe48gm8+/xhcVVSUObFYzFZsFZ45
+      91KB3uqMDg6Syuk4vXUcbDJRNkoyXq+XtCawO8toNtg8D5BLx/joo89oat+HVVVM063Yyip5
+      6aUXC/I2m4oxPDoBkkz7wSeoNlgNB7A6nJSXuZEkGY+3kkoThWnPld+xlJKpqazAYrHezS24
+      vu2x088V5CsIpsfHCMdTWO1unj1zyDQrhMfrRYpnsDkcNDSaTQTofP4vH1BW24zbYTO9FiRJ
+      5Xuv/qC4Y4CZ8RGC8TQSIKs206wQIEjGY0xOTBCIZTh96kSeTTFb7a/OYF8fubsPSZfHOCsE
+      LK9dRIJLjE9MIDt8HDlgPG26FTw4BsjEwwyOTa3mAzLLCgGg5bL4F2aZmJiiqfMoDVXbm9H7
+      wTHAneFBEndFSBa72zQrhBCCeDTM5MQ4cc3CqScK2yZaCEV9AjS0dlDYlhHBxS8/wR/TqG9o
+      wOf1FnQe7dYis7/7SEGWupbm/d/8E7aKaupqq6kwyyG0TVhdHo4cKUCKDYTnxvj4dzeora3D
+      V1GB01ZsVbxEW2ehG3J0vvyX35LATkN9Pd48s1sb9qSYT4DdzuPk74NPgN3Obq3b0iF5JfY0
+      pQAosaf5/wGA0R6CYk0HKAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
