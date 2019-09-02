@@ -30,3 +30,20 @@ of Total Fertility Rate (TFR), Infant Mortality Rate (IMR) at the district
 level and the Maternal Mortality Ratio (MMR) at the regional level by
 estimating these rates on an annual basis for around 284 districts in these
 States.
+
+#  HPD DATASET
+
+The results obtained after clustering have been compared with the HPD
+data available to see how many of the actual HPD districts have been
+clustered correctly. The dataset used for this purpose is the List of High
+priority districts identified by the Ministry of Health and Family welfare.
+The original dataset contained 184 districts from all over the country, the
+number of which has been reduced to 89 to make sure only those districts
+remain that are part of EAGs.
+The data refers to the List of High Priority Districts identified by the
+Department of Health and Family Welfare for Implementation of focused
+health care interventions under National Rural Health Mission. These
+districts were identified based on DLHS indicators and also included
+LWE districts- district with high percentage of SC/ST population etc.
+Bottom 25% districts within a State taken according to raking based on
+Composite Index plus LWE or Tribal districts falling in bottom 50%.
